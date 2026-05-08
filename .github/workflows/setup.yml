@@ -1,0 +1,357 @@
+name: Setup Twitter Bot Files
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Type YES to create all bot files'
+        required: true
+        default: 'NO'
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    
+    # Safety check — won't run unless you explicitly type YES
+    if: github.event.inputs.confirm == 'YES'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create directory structure
+        run: |
+          mkdir -p .github/workflows
+          mkdir -p scripts
+          mkdir -p state
+          mkdir -p tweets
+
+      # ── File 1: tweets/queue.txt ─────────────────────────────────────────
+      - name: Create tweets/queue.txt
+        run: |
+          cat > tweets/queue.txt << 'ENDOFFILE'
+          # Technology tweets
+          The best code is the code you don't have to write.
+          Debugging is twice as hard as writing the code in the first place.
+          Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
+
+          # Process tweets
+          Ship early, iterate often. Waiting for perfect is waiting forever.
+          The most dangerous phrase in software: "We've always done it this way."
+          Code reviews are about sharing knowledge, not finding faults.
+
+          # General wisdom
+          Simplicity is the ultimate sophistication.
+          Done is better than perfect.
+          The best time to start was yesterday. The second best time is now.
+          ENDOFFILE
+
+      # ── File 2: state/state.json ─────────────────────────────────────────
+      - name: Create state/state.json
+        run: |
+          cat > state/state.json << 'ENDOFFILE'
+          {
+            "lastTweetIndex": -1,
+            "lastPostedAt": null,
+            "totalPosted": 0,
+            "history": []
+          }
+          ENDOFFILE
+
+      # ── File 3: package.json ─────────────────────────────────────────────
+      - name: Create package.json
+        run: |
+          cat > package.json << 'ENDOFFILE'
+          {
+            "name": "twitter-bot",
+            "version": "1.0.0",
+            "description": "GitHub Actions Twitter bot",
+            "main": "scripts/post-tweet.js",
+            "scripts": {
+              "post": "node scripts/post-tweet.js",
+              "test": "node scripts/post-tweet.js --dry-run"
+            },
+            "dependencies": {
+              "twitter-api-v2": "^1.17.0"
+            }
+          }
+          ENDOFFILE
+
+      # ── File 4: scripts/post-tweet.js ────────────────────────────────────
+      - name: Create scripts/post-tweet.js
+        run: |
+          cat > scripts/post-tweet.js << 'ENDOFFILE'
+          /**
+           * post-tweet.js
+           *
+           * Reads the next tweet from tweets/queue.txt,
+           * posts it to Twitter via API v2,
+           * and updates state/state.json to track progress.
+           *
+           * Run:     node scripts/post-tweet.js
+           * Dry run: node scripts/post-tweet.js --dry-run
+           */
+
+          const fs = require('fs');
+          const path = require('path');
+          const { TwitterApi } = require('twitter-api-v2');
+
+          // ─── Configuration ────────────────────────────────────────────────
+
+          const CONFIG = {
+            QUEUE_FILE: path.join(__dirname, '../tweets/queue.txt'),
+            STATE_FILE: path.join(__dirname, '../state/state.json'),
+            MAX_TWEET_LENGTH: 280,
+            MAX_HISTORY_ENTRIES: 100,
+            DRY_RUN: process.argv.includes('--dry-run'),
+          };
+
+          // ─── Utilities ────────────────────────────────────────────────────
+
+          function loadQueue() {
+            if (!fs.existsSync(CONFIG.QUEUE_FILE)) {
+              throw new Error(`Queue file not found: ${CONFIG.QUEUE_FILE}`);
+            }
+            const raw = fs.readFileSync(CONFIG.QUEUE_FILE, 'utf8');
+            const tweets = raw
+              .split('\n')
+              .map(line => line.trim())
+              .filter(line => line.length > 0 && !line.startsWith('#'));
+            if (tweets.length === 0) {
+              throw new Error('Queue file is empty or contains only comments');
+            }
+            return tweets;
+          }
+
+          function loadState() {
+            if (!fs.existsSync(CONFIG.STATE_FILE)) {
+              console.log('State file not found, starting fresh');
+              return { lastTweetIndex: -1, lastPostedAt: null, totalPosted: 0, history: [] };
+            }
+            try {
+              return JSON.parse(fs.readFileSync(CONFIG.STATE_FILE, 'utf8'));
+            } catch (error) {
+              console.warn('Failed to parse state file, starting fresh:', error.message);
+              return { lastTweetIndex: -1, lastPostedAt: null, totalPosted: 0, history: [] };
+            }
+          }
+
+          function saveState(state) {
+            if (state.history.length > CONFIG.MAX_HISTORY_ENTRIES) {
+              state.history = state.history.slice(-CONFIG.MAX_HISTORY_ENTRIES);
+            }
+            fs.writeFileSync(
+              CONFIG.STATE_FILE,
+              JSON.stringify(state, null, 2) + '\n',
+              'utf8'
+            );
+          }
+
+          function enforceTweetLength(text) {
+            if (text.length <= CONFIG.MAX_TWEET_LENGTH) {
+              return { text, wasTruncated: false };
+            }
+            const truncated = text.substring(0, CONFIG.MAX_TWEET_LENGTH - 3) + '...';
+            return { text: truncated, wasTruncated: true };
+          }
+
+          function getNextIndex(lastIndex, queueLength) {
+            const nextIndex = lastIndex + 1;
+            if (nextIndex >= queueLength) {
+              console.log(`Completed full rotation of ${queueLength} tweets, cycling back to start`);
+              return 0;
+            }
+            return nextIndex;
+          }
+
+          // ─── Main ─────────────────────────────────────────────────────────
+
+          async function main() {
+            console.log('='.repeat(50));
+            console.log('Twitter Bot Starting');
+            console.log(`Mode: ${CONFIG.DRY_RUN ? 'DRY RUN (no actual posting)' : 'LIVE'}`);
+            console.log(`Time: ${new Date().toISOString()}`);
+            console.log('='.repeat(50));
+
+            const queue = loadQueue();
+            const state = loadState();
+
+            console.log(`\nQueue: ${queue.length} tweets loaded`);
+            console.log(`State: Last posted index was ${state.lastTweetIndex}`);
+
+            const nextIndex = getNextIndex(state.lastTweetIndex, queue.length);
+            const rawText = queue[nextIndex];
+
+            console.log(`\nNext tweet index: ${nextIndex}`);
+            console.log(`Raw text (${rawText.length} chars): "${rawText}"`);
+
+            const { text, wasTruncated } = enforceTweetLength(rawText);
+
+            if (wasTruncated) {
+              console.warn(`\n⚠️  Tweet was truncated from ${rawText.length} to ${text.length} characters`);
+            }
+
+            let tweetId = null;
+
+            if (CONFIG.DRY_RUN) {
+              console.log('\n[DRY RUN] Would post:', text);
+              tweetId = `dry-run-${Date.now()}`;
+            } else {
+              const requiredEnvVars = [
+                'TWITTER_API_KEY',
+                'TWITTER_API_SECRET',
+                'TWITTER_ACCESS_TOKEN',
+                'TWITTER_ACCESS_TOKEN_SECRET',
+              ];
+              for (const envVar of requiredEnvVars) {
+                if (!process.env[envVar]) {
+                  throw new Error(`Missing required environment variable: ${envVar}`);
+                }
+              }
+
+              const client = new TwitterApi({
+                appKey: process.env.TWITTER_API_KEY,
+                appSecret: process.env.TWITTER_API_SECRET,
+                accessToken: process.env.TWITTER_ACCESS_TOKEN,
+                accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
+              });
+
+              try {
+                const response = await client.readWrite.v2.tweet(text);
+                tweetId = response.data.id;
+                console.log(`\n✅ Tweet posted successfully!`);
+                console.log(`Tweet ID: ${tweetId}`);
+                console.log(`View at: https://twitter.com/i/web/status/${tweetId}`);
+              } catch (error) {
+                console.error('\n❌ Failed to post tweet');
+                console.error('Error code:', error.code);
+                console.error('Error message:', error.message);
+                if (error.code === 403) {
+                  console.error('\nError 403: App permissions are likely set to Read Only.');
+                  console.error('Fix: Regenerate Access Token after setting permissions to Read and Write.');
+                }
+                if (error.code === 401) {
+                  console.error('\nError 401: One or more credentials are incorrect.');
+                  console.error('Fix: Check your GitHub Secrets match the developer portal values.');
+                }
+                throw error;
+              }
+            }
+
+            const updatedState = {
+              ...state,
+              lastTweetIndex: nextIndex,
+              lastPostedAt: new Date().toISOString(),
+              totalPosted: (state.totalPosted || 0) + 1,
+              history: [
+                ...state.history,
+                {
+                  index: nextIndex,
+                  text: text,
+                  tweetId: tweetId,
+                  postedAt: new Date().toISOString(),
+                  wasTruncated: wasTruncated,
+                },
+              ],
+            };
+
+            saveState(updatedState);
+            console.log(`\nState saved. Total tweets posted: ${updatedState.totalPosted}`);
+            console.log('\n' + '='.repeat(50));
+            console.log('Twitter Bot Complete');
+            console.log('='.repeat(50));
+          }
+
+          main().catch(error => {
+            console.error('\nFatal error:', error.message);
+            process.exit(1);
+          });
+          ENDOFFILE
+
+      # ── File 5: .github/workflows/tweet.yml ──────────────────────────────
+      - name: Create .github/workflows/tweet.yml
+        run: |
+          cat > .github/workflows/tweet.yml << 'ENDOFFILE'
+          name: Post Scheduled Tweet
+
+          on:
+            schedule:
+              - cron: '0 14 * * *'
+            workflow_dispatch:
+
+          concurrency:
+            group: twitter-post
+            cancel-in-progress: false
+
+          permissions:
+            contents: write
+
+          jobs:
+            post-tweet:
+              runs-on: ubuntu-latest
+              steps:
+                - name: Checkout repository
+                  uses: actions/checkout@v4
+                  with:
+                    token: ${{ secrets.GITHUB_TOKEN }}
+
+                - name: Set up Node.js
+                  uses: actions/setup-node@v4
+                  with:
+                    node-version: '22'
+                    cache: 'npm'
+
+                - name: Install dependencies
+                  run: npm install
+
+                - name: Post tweet
+                  env:
+                    TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+                    TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+                    TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+                    TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+                  run: node scripts/post-tweet.js
+
+                - name: Commit updated state
+                  run: |
+                    git config user.name "github-actions[bot]"
+                    git config user.email "github-actions[bot]@users.noreply.github.com"
+                    git add state/state.json
+                    git commit -m "chore: update tweet state [skip ci]" || echo "No changes to commit"
+                    git pull --rebase
+                    git push
+          ENDOFFILE
+
+      # ── File 6: .gitignore ────────────────────────────────────────────────
+      - name: Create .gitignore
+        run: |
+          cat > .gitignore << 'ENDOFFILE'
+          node_modules/
+          .env
+          *.log
+          .DS_Store
+          ENDOFFILE
+
+      # ── Commit everything ─────────────────────────────────────────────────
+      - name: Commit all files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "feat: initial twitter bot setup [skip ci]"
+          git push
+
+      - name: Print summary
+        run: |
+          echo "✅ Setup complete. Files created:"
+          find . -not -path './.git/*' -not -path './node_modules/*' -type f | sort
+          echo ""
+          echo "Next steps:"
+          echo "  1. Confirm your 4 Twitter credentials are saved as GitHub Secrets"
+          echo "  2. Edit tweets/queue.txt with your actual tweet content"
+          echo "  3. Go to Actions → Post Scheduled Tweet → Run workflow to test"
