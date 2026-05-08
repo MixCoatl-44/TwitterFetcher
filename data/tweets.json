@@ -1,4 +1,5511 @@
 {
-  "tweets": [],
-  "lastUpdate": null
+  "tweets": [
+    {
+      "id": "2052830477707538545",
+      "text": "Retail is driving the markets right now. Guess 2021 might be the better comparison than 2022. https://t.co/tXDysymgOV",
+      "created_at": "Fri May 08 19:18:20 +0000 2026",
+      "retweet_count": 16,
+      "favorite_count": 193,
+      "reply_count": 48,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/tXDysymgOV",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052830477707538545/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052830476260495360",
+            "indices": [
+              94,
+              117
+            ],
+            "media_key": "3_2052830476260495360",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052830476260495360"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0ecRmaUAA9aKq.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 956,
+                  "w": 956,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 956,
+                  "w": 839,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 956,
+                  "w": 478,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 956,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 956,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 956,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 956,
+                "resize": "fit",
+                "w": 1080
+              },
+              "small": {
+                "h": 602,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/tXDysymgOV"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052796834654146615",
+      "text": "$SPY - When you look at just the OBV chart you'd never guess price is sitting way up higher at an ATH. Until it plays out it's hard to tell if we had such an unusual rally that it broke traditional indicators or it's just a bear div in the making that eventually catches up. https://t.co/K8OwJxsEc0",
+      "created_at": "Fri May 08 17:04:39 +0000 2026",
+      "retweet_count": 4,
+      "favorite_count": 269,
+      "reply_count": 78,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/K8OwJxsEc0",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052796834654146615/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052793306082627586",
+            "indices": [
+              275,
+              298
+            ],
+            "media_key": "3_2052793306082627586",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052793306082627586"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHz8or5a0AIEnRI.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 71,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 1086,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 1209,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 1584,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/K8OwJxsEc0"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "text": "SPY"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052787542634946604",
+      "text": "Tech working on extending even past the multi year diagonal https://t.co/KJoGuo8PZx",
+      "created_at": "Fri May 08 16:27:43 +0000 2026",
+      "retweet_count": 7,
+      "favorite_count": 291,
+      "reply_count": 45,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/KJoGuo8PZx",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052787542634946604/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052787408102674435",
+            "indices": [
+              60,
+              83
+            ],
+            "media_key": "3_2052787408102674435",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052787408102674435"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHz3RYNa0AMv22W.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 543,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 666,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 1041,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/KJoGuo8PZx"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052771882785779900",
+      "text": "S&amp;P 500 building a stair case at this point with all the gaps it's creating. Hopefully this doesn't lead to an elevator down later on to fill them. https://t.co/XIE1oZAR1a",
+      "created_at": "Fri May 08 15:25:30 +0000 2026",
+      "retweet_count": 25,
+      "favorite_count": 497,
+      "reply_count": 73,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/XIE1oZAR1a",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052771882785779900/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052771542262816768",
+            "indices": [
+              152,
+              175
+            ],
+            "media_key": "3_2052771542262816768",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052771542262816768"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHzo13WbIAA3MW_.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 135,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/XIE1oZAR1a"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052765513030463899",
+      "text": "$FLNC - Sometimes it takes a few months to hit your target, sometimes the entire move happens in 2 candles. https://t.co/BShk9u18Go",
+      "created_at": "Fri May 08 15:00:11 +0000 2026",
+      "retweet_count": 9,
+      "favorite_count": 307,
+      "reply_count": 42,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/BShk9u18Go",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052765513030463899/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052765069453500418",
+            "indices": [
+              108,
+              131
+            ],
+            "media_key": "3_2052765069453500418",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052765069453500418"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHzi9GQbIAIl39b.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 316,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/BShk9u18Go"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              5
+            ],
+            "text": "FLNC"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052484596776964115",
+      "text": "The most useless yet somehow popular tweet on X:\n\nIf you bought XYZ with XYZ amount and held XYZ time you'd be up XYZ amount\n\nAbout as useful as telling everyone what the winning lottery numbers are after it's announced",
+      "created_at": "Thu May 07 20:23:55 +0000 2026",
+      "retweet_count": 33,
+      "favorite_count": 856,
+      "reply_count": 80,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052483436112482753",
+      "text": "$FLNC -  Signed master supply agreements with two major hyperscalers, and still going through record 5.6 billion dollar backlog, with 3.36 billion revenue expected in 2026 which is right around their marketap. A lot of impatient selling and UBS downgrade caused some panic. https://t.co/WUm2rf4oCR",
+      "created_at": "Thu May 07 20:19:19 +0000 2026",
+      "retweet_count": 33,
+      "favorite_count": 444,
+      "reply_count": 41,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/WUm2rf4oCR",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052483436112482753/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052482968778883072",
+            "indices": [
+              274,
+              297
+            ],
+            "media_key": "3_2052482968778883072",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052482968778883072"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHviYrWawAAKz39.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 362,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 485,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 860,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/WUm2rf4oCR"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              5
+            ],
+            "text": "FLNC"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052459605335450048",
+      "text": "$VIX - Shows we still could have more juice left in the rally if we find a way to get to the bottom of the channel. https://t.co/76XNtG6Esc",
+      "created_at": "Thu May 07 18:44:37 +0000 2026",
+      "retweet_count": 42,
+      "favorite_count": 552,
+      "reply_count": 37,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/76XNtG6Esc",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052459605335450048/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052459242679062528",
+            "indices": [
+              116,
+              139
+            ],
+            "media_key": "3_2052459242679062528",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052459242679062528"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHvMzovaUAA5gMI.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/76XNtG6Esc"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              4
+            ],
+            "text": "VIX"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052438118914244865",
+      "text": "Tech ETF tapped the major diagonal. Looking to see if it's got the legs for an extension or if it's going to respect it for a while. https://t.co/I1ZG4ZKcKc",
+      "created_at": "Thu May 07 17:19:14 +0000 2026",
+      "retweet_count": 12,
+      "favorite_count": 381,
+      "reply_count": 88,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/I1ZG4ZKcKc",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052438118914244865/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052437993856942080",
+            "indices": [
+              133,
+              156
+            ],
+            "media_key": "3_2052437993856942080",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052437993856942080"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHu5eytbwAAlLBV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/I1ZG4ZKcKc"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052424859968471411",
+      "text": "Bitcoin pullback would be expected if we get one. https://t.co/3ymI39wtzU",
+      "created_at": "Thu May 07 16:26:33 +0000 2026",
+      "retweet_count": 68,
+      "favorite_count": 1040,
+      "reply_count": 107,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/3ymI39wtzU",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052424859968471411/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052424572964859904",
+            "indices": [
+              50,
+              73
+            ],
+            "media_key": "3_2052424572964859904",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052424572964859904"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHutRl_acAAmg9J.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 362,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 485,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 860,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/3ymI39wtzU"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052138292972519742",
+      "text": "$FLNC - Being early doesn't always mean it's a bad trade, sometimes it just means you are a little early. https://t.co/6p8Si57E7c",
+      "created_at": "Wed May 06 21:27:50 +0000 2026",
+      "retweet_count": 4,
+      "favorite_count": 292,
+      "reply_count": 43,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/6p8Si57E7c",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052138292972519742/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052138289948397568",
+            "indices": [
+              106,
+              129
+            ],
+            "media_key": "3_2052138289948397568",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052138289948397568"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHqo5upaEAAkfi6.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1242,
+                  "w": 621,
+                  "x": 31,
+                  "y": 0
+                },
+                {
+                  "h": 1242,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1242,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1242,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1043
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 591
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/6p8Si57E7c"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              5
+            ],
+            "text": "FLNC"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052118338286031027",
+      "text": "$GRAL - Good earnings, nice to see it snap back after a long period of consolidation looking for direction. https://t.co/BoDcQRpDba",
+      "created_at": "Wed May 06 20:08:33 +0000 2026",
+      "retweet_count": 4,
+      "favorite_count": 159,
+      "reply_count": 18,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/BoDcQRpDba",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052118338286031027/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052118235823394816",
+            "indices": [
+              108,
+              131
+            ],
+            "media_key": "3_2052118235823394816",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052118235823394816"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHqWqbNa0AAopma.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/BoDcQRpDba"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              5
+            ],
+            "text": "GRAL"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052076286856872144",
+      "text": "Bitcoin squiggles took us to exact target mapped out in February. Now to see if we get the pull back before the party starts. https://t.co/ecWAJghasX",
+      "created_at": "Wed May 06 17:21:27 +0000 2026",
+      "retweet_count": 72,
+      "favorite_count": 1141,
+      "reply_count": 106,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/ecWAJghasX",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052076286856872144/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052075322246569984",
+            "indices": [
+              126,
+              149
+            ],
+            "media_key": "3_2052075322246569984",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052075322246569984"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHpvohraIAAHNHQ.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 362,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 485,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 860,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ecWAJghasX"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052074788852728212",
+      "text": "$SILVER - The quiet trades are usually the better entries but most prefer waiting for the crowd to get noisy before pulling the trigger. https://t.co/NN7EDXEYlG",
+      "created_at": "Wed May 06 17:15:30 +0000 2026",
+      "retweet_count": 45,
+      "favorite_count": 774,
+      "reply_count": 47,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/NN7EDXEYlG",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052074788852728212/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052074242079072256",
+            "indices": [
+              137,
+              160
+            ],
+            "media_key": "3_2052074242079072256",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052074242079072256"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHpuppvaIAAj8sg.png",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 71,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 1629,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 1752,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 2127,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/NN7EDXEYlG"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              0,
+              7
+            ],
+            "text": "SILVER"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052061536601178214",
+      "text": "Nuclear might break out even earlier but I'm fine investing and holding over the next 4 years. Have ETF exposure and holding $SMR and $OKLO which are two different horses running the same race. https://t.co/PtgmGRIjy1",
+      "created_at": "Wed May 06 16:22:50 +0000 2026",
+      "retweet_count": 39,
+      "favorite_count": 608,
+      "reply_count": 49,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/PtgmGRIjy1",
+            "expanded_url": "https://x.com/IncomeSharks/status/2052061536601178214/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052061242148392960",
+            "indices": [
+              194,
+              217
+            ],
+            "media_key": "3_2052061242148392960",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052061242148392960"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHpi09OaEAAVbTV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1992,
+                  "w": 3557,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1992,
+                  "x": 724,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 1747,
+                  "x": 847,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 996,
+                  "x": 1222,
+                  "y": 0
+                },
+                {
+                  "h": 1992,
+                  "w": 3628,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1992,
+              "width": 3628
+            },
+            "sizes": {
+              "large": {
+                "h": 1124,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 659,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 373,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/PtgmGRIjy1"
+          }
+        ],
+        "symbols": [
+          {
+            "indices": [
+              125,
+              129
+            ],
+            "text": "SMR"
+          },
+          {
+            "indices": [
+              134,
+              139
+            ],
+            "text": "OKLO"
+          }
+        ],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "IncomeSharks"
+    },
+    {
+      "id": "2052797768196882585",
+      "text": "These last few matches will surely put Carrick in charge for next season, especially given the opposition. https://t.co/FBRX3ERm7D",
+      "created_at": "Fri May 08 17:08:21 +0000 2026",
+      "retweet_count": 0,
+      "favorite_count": 8,
+      "reply_count": 1,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/FBRX3ERm7D",
+            "expanded_url": "https://x.com/RafaelH117/status/2052797768196882585/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052797761708253187",
+            "indices": [
+              107,
+              130
+            ],
+            "media_key": "3_2052797761708253187",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052797761708253187"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0AsCZWYAMzddj.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 391,
+                  "w": 699,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "h": 461,
+                  "w": 461,
+                  "x": 238,
+                  "y": 0
+                },
+                {
+                  "h": 461,
+                  "w": 404,
+                  "x": 295,
+                  "y": 0
+                },
+                {
+                  "h": 461,
+                  "w": 231,
+                  "x": 468,
+                  "y": 0
+                },
+                {
+                  "h": 461,
+                  "w": 699,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 461,
+              "width": 699
+            },
+            "sizes": {
+              "large": {
+                "h": 461,
+                "resize": "fit",
+                "w": 699
+              },
+              "medium": {
+                "h": 461,
+                "resize": "fit",
+                "w": 699
+              },
+              "small": {
+                "h": 448,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/FBRX3ERm7D"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052776195880595588",
+      "text": "This is quite interesting to look back to, considering most of the UCL winners over the past years have had groups of players like this. Real Madrid themselves were all about the friendly vibe in their last two UCL wins with Ancelotti. Manchester City too.",
+      "created_at": "Fri May 08 15:42:38 +0000 2026",
+      "retweet_count": 7,
+      "favorite_count": 148,
+      "reply_count": 1,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052775247472980200",
+      "text": "How can he come back to Real Madrid after saying this, does anyone think Vinicius will forget or forgive this?",
+      "created_at": "Fri May 08 15:38:52 +0000 2026",
+      "retweet_count": 7,
+      "favorite_count": 140,
+      "reply_count": 3,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052526586763595797",
+      "text": "That's what referees do when they are officiating Real Madrid matches, forgetting all the rules.",
+      "created_at": "Thu May 07 23:10:47 +0000 2026",
+      "retweet_count": 29,
+      "favorite_count": 335,
+      "reply_count": 1,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052521280042115106",
+      "text": "What is even happening inside this club right now, yikes.",
+      "created_at": "Thu May 07 22:49:41 +0000 2026",
+      "retweet_count": 20,
+      "favorite_count": 327,
+      "reply_count": 1,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052508996771123232",
+      "text": "What is an Atlético Madrid player is doing inside the Real Madrid dressing room?",
+      "created_at": "Thu May 07 22:00:53 +0000 2026",
+      "retweet_count": 23,
+      "favorite_count": 365,
+      "reply_count": 5,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052502569235169768",
+      "text": "I cannot believe it’s real, ignored this for the whole day thinking it was a parody!!! Wtf",
+      "created_at": "Thu May 07 21:35:20 +0000 2026",
+      "retweet_count": 8,
+      "favorite_count": 256,
+      "reply_count": 0,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052453548516901214",
+      "text": "A duel to decide which club had the most frustrating and underwhelming season, hard to choice tbh. https://t.co/CIFUQ6gPUr",
+      "created_at": "Thu May 07 18:20:33 +0000 2026",
+      "retweet_count": 0,
+      "favorite_count": 10,
+      "reply_count": 0,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/CIFUQ6gPUr",
+            "expanded_url": "https://x.com/RafaelH117/status/2052453548516901214/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052453544091922440",
+            "indices": [
+              99,
+              122
+            ],
+            "media_key": "3_2052453544091922440",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052453544091922440"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHvHn72XMAg4r5-.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 393,
+                  "w": 702,
+                  "x": 0,
+                  "y": 32
+                },
+                {
+                  "h": 466,
+                  "w": 466,
+                  "x": 236,
+                  "y": 0
+                },
+                {
+                  "h": 466,
+                  "w": 409,
+                  "x": 293,
+                  "y": 0
+                },
+                {
+                  "h": 466,
+                  "w": 233,
+                  "x": 469,
+                  "y": 0
+                },
+                {
+                  "h": 466,
+                  "w": 702,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 466,
+              "width": 702
+            },
+            "sizes": {
+              "large": {
+                "h": 466,
+                "resize": "fit",
+                "w": 702
+              },
+              "medium": {
+                "h": 466,
+                "resize": "fit",
+                "w": 702
+              },
+              "small": {
+                "h": 451,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/CIFUQ6gPUr"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052336787486335270",
+      "text": "RT @FCBayernTurkish: Son 15 yılda Şampiyonlar Ligi’nde hakem kararlarından en çok zarar gören 2 kulüp. https://t.co/SUfmgxl50D",
+      "created_at": "Thu May 07 10:36:35 +0000 2026",
+      "retweet_count": 2750,
+      "favorite_count": 0,
+      "reply_count": 0,
+      "is_retweet": true,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/SUfmgxl50D",
+            "expanded_url": "https://x.com/FCBayernTurkish/status/2052160590228193556/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052160586830823424",
+            "indices": [
+              103,
+              126
+            ],
+            "media_key": "3_2052160586830823424",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052160586830823424"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHq9LlAbwAAP788.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 250,
+                  "w": 447,
+                  "x": 0,
+                  "y": 20
+                },
+                {
+                  "h": 447,
+                  "w": 447,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 447,
+                  "w": 392,
+                  "x": 27,
+                  "y": 0
+                },
+                {
+                  "h": 447,
+                  "w": 224,
+                  "x": 111,
+                  "y": 0
+                },
+                {
+                  "h": 447,
+                  "w": 447,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 447,
+              "width": 447
+            },
+            "sizes": {
+              "large": {
+                "h": 447,
+                "resize": "fit",
+                "w": 447
+              },
+              "medium": {
+                "h": 447,
+                "resize": "fit",
+                "w": 447
+              },
+              "small": {
+                "h": 447,
+                "resize": "fit",
+                "w": 447
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "source_status_id_str": "2052160590228193556",
+            "source_user_id_str": "1271373888866443265",
+            "type": "photo",
+            "url": "https://t.co/SUfmgxl50D"
+          },
+          {
+            "display_url": "pic.x.com/SUfmgxl50D",
+            "expanded_url": "https://x.com/FCBayernTurkish/status/2052160590228193556/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052160587946479616",
+            "indices": [
+              103,
+              126
+            ],
+            "media_key": "3_2052160587946479616",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052160587946479616"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HHq9LpKbUAALmTk.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 331,
+                  "w": 591,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 450,
+                  "w": 450,
+                  "x": 114,
+                  "y": 0
+                },
+                {
+                  "h": 450,
+                  "w": 395,
+                  "x": 142,
+                  "y": 0
+                },
+                {
+                  "h": 450,
+                  "w": 225,
+                  "x": 227,
+                  "y": 0
+                },
+                {
+                  "h": 450,
+                  "w": 591,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 450,
+              "width": 591
+            },
+            "sizes": {
+              "large": {
+                "h": 450,
+                "resize": "fit",
+                "w": 591
+              },
+              "medium": {
+                "h": 450,
+                "resize": "fit",
+                "w": 591
+              },
+              "small": {
+                "h": 450,
+                "resize": "fit",
+                "w": 591
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "source_status_id_str": "2052160590228193556",
+            "source_user_id_str": "1271373888866443265",
+            "type": "photo",
+            "url": "https://t.co/SUfmgxl50D"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1271373888866443265",
+            "indices": [
+              3,
+              19
+            ],
+            "name": "FC Bayern Türkiye",
+            "screen_name": "FCBayernTurkish"
+          }
+        ]
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052146812190957930",
+      "text": "The fact former Barcelona coaches and La Masia players dominate the Champions League while the club doesn’t is immensely frustrating and sad.",
+      "created_at": "Wed May 06 22:01:41 +0000 2026",
+      "retweet_count": 114,
+      "favorite_count": 1663,
+      "reply_count": 22,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052123352483967124",
+      "text": "It's going to be a year pretending Dembele is the world's best player because of three or four goals in the UCL knockout stages. Yikes.",
+      "created_at": "Wed May 06 20:28:28 +0000 2026",
+      "retweet_count": 154,
+      "favorite_count": 1685,
+      "reply_count": 20,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052122375441809855",
+      "text": "I have seen enough. PSG are big favorites vs Arsenal but not guaranteed winners.",
+      "created_at": "Wed May 06 20:24:35 +0000 2026",
+      "retweet_count": 26,
+      "favorite_count": 484,
+      "reply_count": 8,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052110526876971388",
+      "text": "Zero decency, zero consistency.",
+      "created_at": "Wed May 06 19:37:30 +0000 2026",
+      "retweet_count": 13,
+      "favorite_count": 267,
+      "reply_count": 4,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052110163364995332",
+      "text": "Video Assistant Referee is useless because the referees want it to be this way.",
+      "created_at": "Wed May 06 19:36:03 +0000 2026",
+      "retweet_count": 44,
+      "favorite_count": 639,
+      "reply_count": 3,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052109761752039858",
+      "text": "Bayern needs to step up their political game because just like Barcelona, they keep consistently getting robbed in the Champions League.",
+      "created_at": "Wed May 06 19:34:28 +0000 2026",
+      "retweet_count": 519,
+      "favorite_count": 6298,
+      "reply_count": 26,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052109490904817910",
+      "text": "That's a penalty all day for Bayern. Ridiculous.",
+      "created_at": "Wed May 06 19:33:23 +0000 2026",
+      "retweet_count": 75,
+      "favorite_count": 1093,
+      "reply_count": 21,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052109174775947528",
+      "text": "That's a triple red card if it's Balde with that handball.",
+      "created_at": "Wed May 06 19:32:08 +0000 2026",
+      "retweet_count": 37,
+      "favorite_count": 676,
+      "reply_count": 9,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052106066981232903",
+      "text": "It's evident why Flick wants an elite winger for next season, Yamal needs to be given more space and a better footballer on the other wing is essential.",
+      "created_at": "Wed May 06 19:19:47 +0000 2026",
+      "retweet_count": 141,
+      "favorite_count": 2570,
+      "reply_count": 21,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052103441363706143",
+      "text": "Absolutely no idea how Real Madrid will sort things out this summer without making drastic changes.",
+      "created_at": "Wed May 06 19:09:21 +0000 2026",
+      "retweet_count": 10,
+      "favorite_count": 226,
+      "reply_count": 7,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052103094054396010",
+      "text": "Bayern just too soft at the back, worse than most of what Barcelona's been lambasted for this season.",
+      "created_at": "Wed May 06 19:07:58 +0000 2026",
+      "retweet_count": 20,
+      "favorite_count": 369,
+      "reply_count": 5,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "RafaelH117"
+    },
+    {
+      "id": "2052851112856744375",
+      "text": "Eric García: \"In the last two years, I would say the results have been good for us against Madrid. Of course, we lost the away game in Madrid, but we are in a great position.\"\n\n\"With the advantage we have over them, winning at home would be very special.\" https://t.co/3cA4sDWb1f",
+      "created_at": "Fri May 08 20:40:20 +0000 2026",
+      "retweet_count": 0,
+      "favorite_count": 26,
+      "reply_count": 3,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/3cA4sDWb1f",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052851112856744375/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 128,
+                    "w": 128,
+                    "x": 1187,
+                    "y": 217
+                  },
+                  {
+                    "h": 151,
+                    "w": 151,
+                    "x": 725,
+                    "y": 201
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 75,
+                    "w": 75,
+                    "x": 696,
+                    "y": 127
+                  },
+                  {
+                    "h": 89,
+                    "w": 89,
+                    "x": 425,
+                    "y": 118
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 150,
+                    "w": 150,
+                    "x": 1392,
+                    "y": 255
+                  },
+                  {
+                    "h": 178,
+                    "w": 178,
+                    "x": 850,
+                    "y": 236
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 42,
+                    "w": 42,
+                    "x": 394,
+                    "y": 72
+                  },
+                  {
+                    "h": 50,
+                    "w": 50,
+                    "x": 240,
+                    "y": 66
+                  }
+                ]
+              }
+            },
+            "id_str": "2052851094506606593",
+            "indices": [
+              256,
+              279
+            ],
+            "media_key": "3_2052851094506606593",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052851094506606593"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0xMajWkAEqaoV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1344,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1600,
+                  "x": 340,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1404,
+                  "x": 438,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 800,
+                  "x": 740,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1600,
+              "width": 2400
+            },
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/3cA4sDWb1f"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052850915300852158",
+      "text": "❗️Eric García: \"Playing at home with our fans is always special. It is not fully finished yet, but you can feel the pressure teams face when they play there.\"\n\n\"We have been really strong at home this season, and I think that is one of the main reasons why.\" https://t.co/c6IggxjaQj",
+      "created_at": "Fri May 08 20:39:32 +0000 2026",
+      "retweet_count": 4,
+      "favorite_count": 43,
+      "reply_count": 6,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/c6IggxjaQj",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052850915300852158/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052850901430210565",
+            "indices": [
+              259,
+              282
+            ],
+            "media_key": "3_2052850901430210565",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052850901430210565"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0xBLSWkAUv8P0.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1111,
+                  "w": 1984,
+                  "x": 0,
+                  "y": 5
+                },
+                {
+                  "h": 1116,
+                  "w": 1116,
+                  "x": 582,
+                  "y": 0
+                },
+                {
+                  "h": 1116,
+                  "w": 979,
+                  "x": 651,
+                  "y": 0
+                },
+                {
+                  "h": 1116,
+                  "w": 558,
+                  "x": 861,
+                  "y": 0
+                },
+                {
+                  "h": 1116,
+                  "w": 1984,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1116,
+              "width": 1984
+            },
+            "sizes": {
+              "large": {
+                "h": 1116,
+                "resize": "fit",
+                "w": 1984
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/c6IggxjaQj"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052849305971540089",
+      "text": "STUNNING! https://t.co/MYw09JZLpA",
+      "created_at": "Fri May 08 20:33:09 +0000 2026",
+      "retweet_count": 10,
+      "favorite_count": 145,
+      "reply_count": 14,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/MYw09JZLpA",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052849305971540089/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 111,
+                    "w": 111,
+                    "x": 850,
+                    "y": 671
+                  },
+                  {
+                    "h": 178,
+                    "w": 178,
+                    "x": 588,
+                    "y": 374
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 105,
+                    "w": 105,
+                    "x": 806,
+                    "y": 636
+                  },
+                  {
+                    "h": 168,
+                    "w": 168,
+                    "x": 558,
+                    "y": 354
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 111,
+                    "w": 111,
+                    "x": 850,
+                    "y": 671
+                  },
+                  {
+                    "h": 178,
+                    "w": 178,
+                    "x": 588,
+                    "y": 374
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 59,
+                    "w": 59,
+                    "x": 457,
+                    "y": 360
+                  },
+                  {
+                    "h": 95,
+                    "w": 95,
+                    "x": 316,
+                    "y": 201
+                  }
+                ]
+              }
+            },
+            "id_str": "2052849253433634820",
+            "indices": [
+              10,
+              33
+            ],
+            "media_key": "3_2052849253433634820",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052849253433634820"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0vhQBWcAQF9Ga.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 615,
+                  "w": 1099,
+                  "x": 0,
+                  "y": 356
+                },
+                {
+                  "h": 1099,
+                  "w": 1099,
+                  "x": 0,
+                  "y": 114
+                },
+                {
+                  "h": 1253,
+                  "w": 1099,
+                  "x": 0,
+                  "y": 11
+                },
+                {
+                  "h": 1264,
+                  "w": 632,
+                  "x": 284,
+                  "y": 0
+                },
+                {
+                  "h": 1264,
+                  "w": 1099,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1264,
+              "width": 1099
+            },
+            "sizes": {
+              "large": {
+                "h": 1264,
+                "resize": "fit",
+                "w": 1099
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1043
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 591
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/MYw09JZLpA"
+          },
+          {
+            "display_url": "pic.x.com/MYw09JZLpA",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052849305971540089/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052849268793241609",
+            "indices": [
+              10,
+              33
+            ],
+            "media_key": "3_2052849268793241609",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052849268793241609"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0viJPXcAkza3-.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 672,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 294
+                },
+                {
+                  "h": 1145,
+                  "w": 1145,
+                  "x": 55,
+                  "y": 0
+                },
+                {
+                  "h": 1145,
+                  "w": 1004,
+                  "x": 196,
+                  "y": 0
+                },
+                {
+                  "h": 1145,
+                  "w": 573,
+                  "x": 464,
+                  "y": 0
+                },
+                {
+                  "h": 1145,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1145,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 1145,
+                "resize": "fit",
+                "w": 1200
+              },
+              "medium": {
+                "h": 1145,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 649,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/MYw09JZLpA"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052840966487519552",
+      "text": "🚨 Barça Atlètic’s winter signings leave mixed but interesting feelings after their first few months at the club.\n\nHamza Abdelkarim arrived with the most hype and has already shown flashes of why Barça bet on him, especially after scoring a hat-trick with the Juvenil A. The https://t.co/6wTv4EMAk1",
+      "created_at": "Fri May 08 20:00:01 +0000 2026",
+      "retweet_count": 13,
+      "favorite_count": 249,
+      "reply_count": 9,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/6wTv4EMAk1",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052840966487519552/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 163,
+                    "w": 163,
+                    "x": 811,
+                    "y": 240
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 475,
+                    "y": 140
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 256,
+                    "w": 256,
+                    "x": 1268,
+                    "y": 375
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 54,
+                    "w": 54,
+                    "x": 269,
+                    "y": 79
+                  }
+                ]
+              }
+            },
+            "id_str": "2052820512028471296",
+            "indices": [
+              274,
+              297
+            ],
+            "media_key": "3_2052820512028471296",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052820512028471296"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0VYR8XsAA73G2.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1792,
+                  "w": 3200,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2133,
+                  "w": 2133,
+                  "x": 294,
+                  "y": 0
+                },
+                {
+                  "h": 2133,
+                  "w": 1871,
+                  "x": 425,
+                  "y": 0
+                },
+                {
+                  "h": 2133,
+                  "w": 1067,
+                  "x": 827,
+                  "y": 0
+                },
+                {
+                  "h": 2133,
+                  "w": 3200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2133,
+              "width": 3200
+            },
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/6wTv4EMAk1"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052830348204024275",
+      "text": "❗️FC Barcelona x Olivia Rodrigo is shaping up to be one of the BEST artist collabs so far! https://t.co/SRx1ZOGJWn",
+      "created_at": "Fri May 08 19:17:49 +0000 2026",
+      "retweet_count": 69,
+      "favorite_count": 1958,
+      "reply_count": 30,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/SRx1ZOGJWn",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052830348204024275/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 499,
+                    "w": 499,
+                    "x": 581,
+                    "y": 208
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 292,
+                    "w": 292,
+                    "x": 340,
+                    "y": 121
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 562,
+                    "w": 562,
+                    "x": 654,
+                    "y": 234
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 165,
+                    "w": 165,
+                    "x": 193,
+                    "y": 69
+                  }
+                ]
+              }
+            },
+            "id_str": "2052830214317596675",
+            "indices": [
+              91,
+              114
+            ],
+            "media_key": "3_2052830214317596675",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052830214317596675"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0eNByW4AMBZgb.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1039,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1856,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2116,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2304,
+                  "w": 1152,
+                  "x": 402,
+                  "y": 0
+                },
+                {
+                  "h": 2304,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2304,
+              "width": 1856
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "resize": "fit",
+                "w": 1650
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 967
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 548
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/SRx1ZOGJWn"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052827122033422443",
+      "text": "❗️Hansi Flick rates Xavi Espart very highly due to his defensive capabilities and intelligent decision making in attack.\n\n— @sport https://t.co/3vbbj3phlE",
+      "created_at": "Fri May 08 19:05:00 +0000 2026",
+      "retweet_count": 31,
+      "favorite_count": 1037,
+      "reply_count": 20,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/3vbbj3phlE",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052827122033422443/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 64,
+                    "w": 64,
+                    "x": 427,
+                    "y": 33
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 64,
+                    "w": 64,
+                    "x": 427,
+                    "y": 33
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 64,
+                    "w": 64,
+                    "x": 427,
+                    "y": 33
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 36,
+                    "w": 36,
+                    "x": 241,
+                    "y": 18
+                  }
+                ]
+              }
+            },
+            "id_str": "2052823589800275968",
+            "indices": [
+              131,
+              154
+            ],
+            "media_key": "3_2052823589800275968",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052823589800275968"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0YLbiWcAA7cSV.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 672,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 675,
+                  "x": 233,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 592,
+                  "x": 274,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 338,
+                  "x": 401,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 675,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/3vbbj3phlE"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "19343904",
+            "indices": [
+              124,
+              130
+            ],
+            "name": "Diario SPORT",
+            "screen_name": "sport"
+          }
+        ]
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052826611733426187",
+      "text": "Barcelona had the perfect design to release for the Retro matchday and they still didn't do it.💔 https://t.co/x6IH7mgbPc",
+      "created_at": "Fri May 08 19:02:58 +0000 2026",
+      "retweet_count": 34,
+      "favorite_count": 1343,
+      "reply_count": 18,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/x6IH7mgbPc",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052826611733426187/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 497,
+                    "w": 497,
+                    "x": 568,
+                    "y": 256
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 291,
+                    "w": 291,
+                    "x": 332,
+                    "y": 150
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 560,
+                    "w": 560,
+                    "x": 639,
+                    "y": 288
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 165,
+                    "w": 165,
+                    "x": 188,
+                    "y": 85
+                  }
+                ]
+              }
+            },
+            "id_str": "2052826344648486913",
+            "indices": [
+              97,
+              120
+            ],
+            "media_key": "3_2052826344648486913",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052826344648486913"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0aryJWMAE0xKE.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1039,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1856,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2116,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 2304,
+                  "w": 1152,
+                  "x": 287,
+                  "y": 0
+                },
+                {
+                  "h": 2304,
+                  "w": 1856,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 2304,
+              "width": 1856
+            },
+            "sizes": {
+              "large": {
+                "h": 2048,
+                "resize": "fit",
+                "w": 1650
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 967
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 548
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/x6IH7mgbPc"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052825863612137510",
+      "text": "❗️Hansi Flick has called up four Barça Atlètic players during Clásico week: Eder Aller, Xavi Espart, Álvaro Cortés and Tommy Marqués.\n\nEspart and Marqués have already made their first-team debuts, while Cortés is still waiting for his chance after nine call-ups. https://t.co/WCplgFzS7f",
+      "created_at": "Fri May 08 19:00:00 +0000 2026",
+      "retweet_count": 16,
+      "favorite_count": 734,
+      "reply_count": 9,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/WCplgFzS7f",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052825863612137510/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 796,
+                    "y": 447
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 168,
+                    "y": 77
+                  },
+                  {
+                    "h": 94,
+                    "w": 94,
+                    "x": 631,
+                    "y": 117
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 796,
+                    "y": 447
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 168,
+                    "y": 77
+                  },
+                  {
+                    "h": 94,
+                    "w": 94,
+                    "x": 631,
+                    "y": 117
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 39,
+                    "w": 39,
+                    "x": 796,
+                    "y": 447
+                  },
+                  {
+                    "h": 90,
+                    "w": 90,
+                    "x": 168,
+                    "y": 77
+                  },
+                  {
+                    "h": 94,
+                    "w": 94,
+                    "x": 631,
+                    "y": 117
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 22,
+                    "w": 22,
+                    "x": 451,
+                    "y": 253
+                  },
+                  {
+                    "h": 51,
+                    "w": 51,
+                    "x": 95,
+                    "y": 43
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 357,
+                    "y": 66
+                  }
+                ]
+              }
+            },
+            "id_str": "2052820966774870016",
+            "indices": [
+              263,
+              286
+            ],
+            "media_key": "3_2052820966774870016",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052820966774870016"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0VywAXEAAzEzv.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 672,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 675,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 592,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 338,
+                  "x": 41,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 675,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/WCplgFzS7f"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052824391759663529",
+      "text": "‼️NEW: Barcelona have released a retro 2003/2004 inspired kit for the Olivia Rodrigo collaboration.\n\nIt's priced at €100. https://t.co/YZuwuuAb2v",
+      "created_at": "Fri May 08 18:54:09 +0000 2026",
+      "retweet_count": 36,
+      "favorite_count": 768,
+      "reply_count": 19,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/YZuwuuAb2v",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052824391759663529/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 139,
+                    "w": 139,
+                    "x": 880,
+                    "y": 340
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 123,
+                    "w": 123,
+                    "x": 782,
+                    "y": 302
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 139,
+                    "w": 139,
+                    "x": 880,
+                    "y": 340
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 70,
+                    "w": 70,
+                    "x": 443,
+                    "y": 171
+                  }
+                ]
+              }
+            },
+            "id_str": "2052824169843220483",
+            "indices": [
+              122,
+              145
+            ],
+            "media_key": "3_2052824169843220483",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052824169843220483"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0YtMXXYAMha30.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1350,
+                  "w": 675,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1350,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1350,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1350,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 960
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 544
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/YZuwuuAb2v"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052815334843838909",
+      "text": "🚨 Dani Olmo: \"We want to win La Liga, first of all, and before everything else, win El Clásico and make history.\"\n\n\"I think La Liga has never been won against Madrid at home.\" https://t.co/YXHjaaP0Ym",
+      "created_at": "Fri May 08 18:18:09 +0000 2026",
+      "retweet_count": 130,
+      "favorite_count": 3485,
+      "reply_count": 25,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/YXHjaaP0Ym",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052815334843838909/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 131,
+                    "w": 131,
+                    "x": 1703,
+                    "y": 211
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 77,
+                    "w": 77,
+                    "x": 998,
+                    "y": 124
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 154,
+                    "w": 154,
+                    "x": 1996,
+                    "y": 248
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 43,
+                    "w": 43,
+                    "x": 565,
+                    "y": 70
+                  }
+                ]
+              }
+            },
+            "id_str": "2052815314488872964",
+            "indices": [
+              176,
+              199
+            ],
+            "media_key": "3_2052815314488872964",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052815314488872964"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0QpvmXUAQxDC7.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1344,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1611,
+                  "w": 1611,
+                  "x": 94,
+                  "y": 0
+                },
+                {
+                  "h": 1611,
+                  "w": 1413,
+                  "x": 193,
+                  "y": 0
+                },
+                {
+                  "h": 1611,
+                  "w": 806,
+                  "x": 496,
+                  "y": 0
+                },
+                {
+                  "h": 1611,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1611,
+              "width": 2400
+            },
+            "sizes": {
+              "large": {
+                "h": 1375,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 806,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 456,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/YXHjaaP0Ym"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052815015871234211",
+      "text": "❗️Dani Olmo: \"We have to respect the opponent. Real Madrid will come out strongly.\"\n\n\"It will be a special Clásico, and we are ready to give everything to win.\" https://t.co/5O5ziLeofD",
+      "created_at": "Fri May 08 18:16:53 +0000 2026",
+      "retweet_count": 51,
+      "favorite_count": 1726,
+      "reply_count": 9,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/5O5ziLeofD",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052815015871234211/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 159,
+                    "w": 159,
+                    "x": 1143,
+                    "y": 153
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 93,
+                    "w": 93,
+                    "x": 670,
+                    "y": 90
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 187,
+                    "w": 187,
+                    "x": 1340,
+                    "y": 180
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 52,
+                    "w": 52,
+                    "x": 379,
+                    "y": 51
+                  }
+                ]
+              }
+            },
+            "id_str": "2052814998733193217",
+            "indices": [
+              161,
+              184
+            ],
+            "media_key": "3_2052814998733193217",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052814998733193217"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0QXXUWAAEy8Q2.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1344,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 272
+                },
+                {
+                  "h": 1616,
+                  "w": 1616,
+                  "x": 784,
+                  "y": 0
+                },
+                {
+                  "h": 1616,
+                  "w": 1418,
+                  "x": 982,
+                  "y": 0
+                },
+                {
+                  "h": 1616,
+                  "w": 808,
+                  "x": 1456,
+                  "y": 0
+                },
+                {
+                  "h": 1616,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1616,
+              "width": 2400
+            },
+            "sizes": {
+              "large": {
+                "h": 1379,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 808,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 458,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/5O5ziLeofD"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052814804188885349",
+      "text": "🚨 Dani Olmo: \"We are not satisfied. Our objective is always to win everything, and I think in the Champions League we showed that we deserved to go further.\"\n\n\"This experience is what will make us improve.\" https://t.co/jmFSGQFebH",
+      "created_at": "Fri May 08 18:16:03 +0000 2026",
+      "retweet_count": 11,
+      "favorite_count": 329,
+      "reply_count": 10,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/jmFSGQFebH",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052814804188885349/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 183,
+                    "w": 183,
+                    "x": 590,
+                    "y": 116
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 183,
+                    "w": 183,
+                    "x": 590,
+                    "y": 116
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 183,
+                    "w": 183,
+                    "x": 590,
+                    "y": 116
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 103,
+                    "w": 103,
+                    "x": 334,
+                    "y": 65
+                  }
+                ]
+              }
+            },
+            "id_str": "2052814797025005574",
+            "indices": [
+              207,
+              230
+            ],
+            "media_key": "3_2052814797025005574",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052814797025005574"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0QLn5XUAYp7BN.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 672,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 750,
+                  "w": 750,
+                  "x": 315,
+                  "y": 0
+                },
+                {
+                  "h": 750,
+                  "w": 658,
+                  "x": 361,
+                  "y": 0
+                },
+                {
+                  "h": 750,
+                  "w": 375,
+                  "x": 503,
+                  "y": 0
+                },
+                {
+                  "h": 750,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 750,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 750,
+                "resize": "fit",
+                "w": 1200
+              },
+              "medium": {
+                "h": 750,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 425,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/jmFSGQFebH"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052814566673772598",
+      "text": "❗️Dani Olmo: \"Whenever you win La Liga, which is a very big title, I would not describe it as a bad season.\" https://t.co/FrFnnNps4j",
+      "created_at": "Fri May 08 18:15:06 +0000 2026",
+      "retweet_count": 15,
+      "favorite_count": 539,
+      "reply_count": 13,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/FrFnnNps4j",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052814566673772598/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 184,
+                    "w": 184,
+                    "x": 764,
+                    "y": 179
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 127,
+                    "w": 127,
+                    "x": 529,
+                    "y": 124
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 184,
+                    "w": 184,
+                    "x": 764,
+                    "y": 179
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 72,
+                    "w": 72,
+                    "x": 300,
+                    "y": 70
+                  }
+                ]
+              }
+            },
+            "id_str": "2052814437141139457",
+            "indices": [
+              109,
+              132
+            ],
+            "media_key": "3_2052814437141139457",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052814437141139457"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0P2rOXUAE-N87.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 969,
+                  "w": 1731,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 974,
+                  "w": 974,
+                  "x": 335,
+                  "y": 0
+                },
+                {
+                  "h": 974,
+                  "w": 854,
+                  "x": 395,
+                  "y": 0
+                },
+                {
+                  "h": 974,
+                  "w": 487,
+                  "x": 579,
+                  "y": 0
+                },
+                {
+                  "h": 974,
+                  "w": 1731,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 974,
+              "width": 1731
+            },
+            "sizes": {
+              "large": {
+                "h": 974,
+                "resize": "fit",
+                "w": 1731
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/FrFnnNps4j"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052814231884505340",
+      "text": "Dani Olmo: \"The coach is the foundation of the team. He is the one behind the idea of play, the mentality and the style. In the end, it is a winning style.\"\n\n\"Of course, there are things we need to improve, but we are a young team and we will do that.\" https://t.co/XBHKLYICDY",
+      "created_at": "Fri May 08 18:13:46 +0000 2026",
+      "retweet_count": 14,
+      "favorite_count": 324,
+      "reply_count": 11,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/XBHKLYICDY",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052814231884505340/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052814216399142918",
+            "indices": [
+              253,
+              276
+            ],
+            "media_key": "3_2052814216399142918",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052814216399142918"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0Pp05XwAY46Am.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 980,
+                  "w": 1750,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1596,
+                  "w": 1596,
+                  "x": 154,
+                  "y": 0
+                },
+                {
+                  "h": 1596,
+                  "w": 1400,
+                  "x": 350,
+                  "y": 0
+                },
+                {
+                  "h": 1596,
+                  "w": 798,
+                  "x": 869,
+                  "y": 0
+                },
+                {
+                  "h": 1596,
+                  "w": 1750,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1596,
+              "width": 1750
+            },
+            "sizes": {
+              "large": {
+                "h": 1596,
+                "resize": "fit",
+                "w": 1750
+              },
+              "medium": {
+                "h": 1094,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 620,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/XBHKLYICDY"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052812297886642563",
+      "text": "🚨 Dani Olmo: \"I feel like we're in a good dynamic with the national team. We won the Euros, have a brilliant squad, and a huge opportunity in front of us.\"\n\n\"I think we're capable of doing something big in the World Cup. We'll go for it.\" https://t.co/vp1Gfy6oer",
+      "created_at": "Fri May 08 18:06:05 +0000 2026",
+      "retweet_count": 26,
+      "favorite_count": 599,
+      "reply_count": 17,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/vp1Gfy6oer",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052812297886642563/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 151,
+                    "w": 151,
+                    "x": 782,
+                    "y": 109
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 113,
+                    "w": 113,
+                    "x": 586,
+                    "y": 81
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 151,
+                    "w": 151,
+                    "x": 782,
+                    "y": 109
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 64,
+                    "w": 64,
+                    "x": 332,
+                    "y": 46
+                  }
+                ]
+              }
+            },
+            "id_str": "2052812130210975747",
+            "indices": [
+              239,
+              262
+            ],
+            "media_key": "3_2052812130210975747",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052812130210975747"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0NwZPWkAMJzQN.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 896,
+                  "w": 1600,
+                  "x": 0,
+                  "y": 72
+                },
+                {
+                  "h": 1067,
+                  "w": 1067,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1067,
+                  "w": 936,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1067,
+                  "w": 534,
+                  "x": 93,
+                  "y": 0
+                },
+                {
+                  "h": 1067,
+                  "w": 1600,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1067,
+              "width": 1600
+            },
+            "sizes": {
+              "large": {
+                "h": 1067,
+                "resize": "fit",
+                "w": 1600
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/vp1Gfy6oer"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052811853114249502",
+      "text": "Who's most likely to have a meltdown if they were separated from their phone for 24 hours?\n\nRaphinha: \"Gavi!\" https://t.co/ZEHFQGvpMG",
+      "created_at": "Fri May 08 18:04:19 +0000 2026",
+      "retweet_count": 18,
+      "favorite_count": 658,
+      "reply_count": 15,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/ZEHFQGvpMG",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052811853114249502/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 43,
+                    "w": 43,
+                    "x": 428,
+                    "y": 346
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 967,
+                    "y": 637
+                  },
+                  {
+                    "h": 93,
+                    "w": 93,
+                    "x": 451,
+                    "y": 273
+                  },
+                  {
+                    "h": 107,
+                    "w": 107,
+                    "x": 300,
+                    "y": 250
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 40,
+                    "w": 40,
+                    "x": 402,
+                    "y": 325
+                  },
+                  {
+                    "h": 53,
+                    "w": 53,
+                    "x": 908,
+                    "y": 598
+                  },
+                  {
+                    "h": 87,
+                    "w": 87,
+                    "x": 423,
+                    "y": 256
+                  },
+                  {
+                    "h": 100,
+                    "w": 100,
+                    "x": 281,
+                    "y": 234
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 43,
+                    "w": 43,
+                    "x": 428,
+                    "y": 346
+                  },
+                  {
+                    "h": 57,
+                    "w": 57,
+                    "x": 967,
+                    "y": 637
+                  },
+                  {
+                    "h": 93,
+                    "w": 93,
+                    "x": 451,
+                    "y": 273
+                  },
+                  {
+                    "h": 107,
+                    "w": 107,
+                    "x": 300,
+                    "y": 250
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 22,
+                    "w": 22,
+                    "x": 227,
+                    "y": 184
+                  },
+                  {
+                    "h": 30,
+                    "w": 30,
+                    "x": 514,
+                    "y": 339
+                  },
+                  {
+                    "h": 49,
+                    "w": 49,
+                    "x": 240,
+                    "y": 145
+                  },
+                  {
+                    "h": 56,
+                    "w": 56,
+                    "x": 159,
+                    "y": 133
+                  }
+                ]
+              }
+            },
+            "id_str": "2052811834634223616",
+            "indices": [
+              110,
+              133
+            ],
+            "media_key": "3_2052811834634223616",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052811834634223616"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0NfMIXQAAartD.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 605,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 48
+                },
+                {
+                  "h": 1080,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1231,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1277,
+                  "w": 639,
+                  "x": 95,
+                  "y": 0
+                },
+                {
+                  "h": 1277,
+                  "w": 1080,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1277,
+              "width": 1080
+            },
+            "sizes": {
+              "large": {
+                "h": 1277,
+                "resize": "fit",
+                "w": 1080
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 1015
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 575
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ZEHFQGvpMG"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052811652270084456",
+      "text": "Who's the most likely to be late for their own wedding?\n\nRaphinha: \"Lamine Yamal or Kounde.\" https://t.co/HS1YEtZRB6",
+      "created_at": "Fri May 08 18:03:31 +0000 2026",
+      "retweet_count": 38,
+      "favorite_count": 1733,
+      "reply_count": 16,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/HS1YEtZRB6",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052811652270084456/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": []
+              },
+              "medium": {
+                "faces": []
+              },
+              "orig": {
+                "faces": []
+              },
+              "small": {
+                "faces": []
+              }
+            },
+            "id_str": "2052811551233458177",
+            "indices": [
+              93,
+              116
+            ],
+            "media_key": "3_2052811551233458177",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052811551233458177"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0NOsYWwAEpK5R.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 728,
+                  "w": 1300,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 732,
+                  "w": 732,
+                  "x": 56,
+                  "y": 0
+                },
+                {
+                  "h": 732,
+                  "w": 642,
+                  "x": 101,
+                  "y": 0
+                },
+                {
+                  "h": 732,
+                  "w": 366,
+                  "x": 239,
+                  "y": 0
+                },
+                {
+                  "h": 732,
+                  "w": 1300,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 732,
+              "width": 1300
+            },
+            "sizes": {
+              "large": {
+                "h": 732,
+                "resize": "fit",
+                "w": 1300
+              },
+              "medium": {
+                "h": 676,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/HS1YEtZRB6"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052810197421212061",
+      "text": "❗️Pau Cubarsí: \"Ending the season by winning La Liga, I think these have been two very good seasons, where we have also achieved great things here in Spain.\"\n\n\"Maybe in Europe we are still missing that extra step, but in terms of experience and everything else, I’m sure we will https://t.co/ZxYh7yY91j",
+      "created_at": "Fri May 08 17:57:45 +0000 2026",
+      "retweet_count": 17,
+      "favorite_count": 462,
+      "reply_count": 13,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/ZxYh7yY91j",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052810197421212061/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 227,
+                    "w": 227,
+                    "x": 935,
+                    "y": 221
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 133,
+                    "w": 133,
+                    "x": 548,
+                    "y": 130
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 267,
+                    "w": 267,
+                    "x": 1096,
+                    "y": 260
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 75,
+                    "w": 75,
+                    "x": 310,
+                    "y": 73
+                  }
+                ]
+              }
+            },
+            "id_str": "2052810165871673344",
+            "indices": [
+              279,
+              302
+            ],
+            "media_key": "3_2052810165871673344",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052810165871673344"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0L-DgXgAAlHTa.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 1344,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1600,
+                  "x": 460,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 1404,
+                  "x": 558,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 800,
+                  "x": 860,
+                  "y": 0
+                },
+                {
+                  "h": 1600,
+                  "w": 2400,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 1600,
+              "width": 2400
+            },
+            "sizes": {
+              "large": {
+                "h": 1365,
+                "resize": "fit",
+                "w": 2048
+              },
+              "medium": {
+                "h": 800,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 453,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/ZxYh7yY91j"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052809857539932310",
+      "text": "❗️Pau Cubarsí: \"Yes, we left a bit frustrated because of the way the whole knockout stage in the Champions League went.\"\n\n\"There were also some circumstances that were not in our hands, but in the end, as I said before, they are just experiences.\"\n\n\"Next year, we will come back https://t.co/FSvi0KT8oh",
+      "created_at": "Fri May 08 17:56:24 +0000 2026",
+      "retweet_count": 13,
+      "favorite_count": 681,
+      "reply_count": 19,
+      "is_retweet": false,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "display_url": "pic.x.com/FSvi0KT8oh",
+            "expanded_url": "https://x.com/BarcaUniversal/status/2052809857539932310/photo/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "features": {
+              "large": {
+                "faces": [
+                  {
+                    "h": 80,
+                    "w": 80,
+                    "x": 462,
+                    "y": 239
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 707,
+                    "y": 256
+                  },
+                  {
+                    "h": 97,
+                    "w": 97,
+                    "x": 326,
+                    "y": 262
+                  },
+                  {
+                    "h": 110,
+                    "w": 110,
+                    "x": 303,
+                    "y": 215
+                  },
+                  {
+                    "h": 250,
+                    "w": 250,
+                    "x": 679,
+                    "y": 162
+                  }
+                ]
+              },
+              "medium": {
+                "faces": [
+                  {
+                    "h": 80,
+                    "w": 80,
+                    "x": 462,
+                    "y": 239
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 707,
+                    "y": 256
+                  },
+                  {
+                    "h": 97,
+                    "w": 97,
+                    "x": 326,
+                    "y": 262
+                  },
+                  {
+                    "h": 110,
+                    "w": 110,
+                    "x": 303,
+                    "y": 215
+                  },
+                  {
+                    "h": 250,
+                    "w": 250,
+                    "x": 679,
+                    "y": 162
+                  }
+                ]
+              },
+              "orig": {
+                "faces": [
+                  {
+                    "h": 80,
+                    "w": 80,
+                    "x": 462,
+                    "y": 239
+                  },
+                  {
+                    "h": 96,
+                    "w": 96,
+                    "x": 707,
+                    "y": 256
+                  },
+                  {
+                    "h": 97,
+                    "w": 97,
+                    "x": 326,
+                    "y": 262
+                  },
+                  {
+                    "h": 110,
+                    "w": 110,
+                    "x": 303,
+                    "y": 215
+                  },
+                  {
+                    "h": 250,
+                    "w": 250,
+                    "x": 679,
+                    "y": 162
+                  }
+                ]
+              },
+              "small": {
+                "faces": [
+                  {
+                    "h": 45,
+                    "w": 45,
+                    "x": 261,
+                    "y": 135
+                  },
+                  {
+                    "h": 54,
+                    "w": 54,
+                    "x": 400,
+                    "y": 145
+                  },
+                  {
+                    "h": 54,
+                    "w": 54,
+                    "x": 184,
+                    "y": 148
+                  },
+                  {
+                    "h": 62,
+                    "w": 62,
+                    "x": 171,
+                    "y": 121
+                  },
+                  {
+                    "h": 141,
+                    "w": 141,
+                    "x": 384,
+                    "y": 91
+                  }
+                ]
+              }
+            },
+            "id_str": "2052809847301619716",
+            "indices": [
+              279,
+              302
+            ],
+            "media_key": "3_2052809847301619716",
+            "media_results": {
+              "result": {
+                "media_key": "3_2052809847301619716"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/media/HH0LrgvWQAQRFav.jpg",
+            "original_info": {
+              "focus_rects": [
+                {
+                  "h": 672,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 675,
+                  "x": 413,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 592,
+                  "x": 454,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 338,
+                  "x": 581,
+                  "y": 0
+                },
+                {
+                  "h": 675,
+                  "w": 1200,
+                  "x": 0,
+                  "y": 0
+                }
+              ],
+              "height": 675,
+              "width": 1200
+            },
+            "sizes": {
+              "large": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "medium": {
+                "h": 675,
+                "resize": "fit",
+                "w": 1200
+              },
+              "small": {
+                "h": 383,
+                "resize": "fit",
+                "w": 680
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "type": "photo",
+            "url": "https://t.co/FSvi0KT8oh"
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": []
+      },
+      "username": "barcauniversal"
+    },
+    {
+      "id": "2052807483391918450",
+      "text": "RT @Yamal_Xtra: Keyne is at the wheel! 🚘🪩\nhttps://t.co/hlwdo6pKNE",
+      "created_at": "Fri May 08 17:46:58 +0000 2026",
+      "retweet_count": 14,
+      "favorite_count": 0,
+      "reply_count": 0,
+      "is_retweet": true,
+      "entities": {
+        "hashtags": [],
+        "media": [
+          {
+            "additional_media_info": {
+              "monetizable": true,
+              "source_user": {
+                "user_results": {
+                  "result": {
+                    "__typename": "User",
+                    "affiliates_highlighted_label": {},
+                    "has_graduated_access": true,
+                    "id": "VXNlcjo0NTc1ODA0NDQ=",
+                    "is_blue_verified": true,
+                    "legacy": {
+                      "blocked_by": false,
+                      "blocking": false,
+                      "can_dm": false,
+                      "can_media_tag": true,
+                      "created_at": "Sat Jan 07 15:40:16 +0000 2012",
+                      "default_profile": false,
+                      "default_profile_image": false,
+                      "description": "عالم البارسا",
+                      "entities": {
+                        "description": {}
+                      },
+                      "fast_followers_count": 0,
+                      "favourites_count": 949,
+                      "follow_request_sent": false,
+                      "followed_by": false,
+                      "followers_count": 355413,
+                      "following": false,
+                      "friends_count": 1,
+                      "has_custom_timelines": true,
+                      "is_translator": false,
+                      "listed_count": 985,
+                      "location": "",
+                      "media_count": 18200,
+                      "muting": false,
+                      "name": "FCB World",
+                      "needs_phone_verification": false,
+                      "normal_followers_count": 355413,
+                      "notifications": false,
+                      "pinned_tweet_ids_str": [
+                        "1820527257187991775"
+                      ],
+                      "possibly_sensitive": false,
+                      "profile_banner_url": "https://pbs.twimg.com/profile_banners/457580444/1762812249",
+                      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1743574224248188929/Fb7oBggJ_normal.jpg",
+                      "profile_interstitial_type": "",
+                      "protected": false,
+                      "screen_name": "Forca_Fcb",
+                      "statuses_count": 37771,
+                      "time_zone": "",
+                      "translator_type": "none",
+                      "url": "",
+                      "utc_offset": 0,
+                      "verified": false,
+                      "want_retweets": false,
+                      "withheld_description": "",
+                      "withheld_scope": ""
+                    },
+                    "professional": {
+                      "category": [
+                        {
+                          "icon_name": "IconBriefcaseStroke",
+                          "id": 1001,
+                          "name": "Professional Sports Association"
+                        }
+                      ],
+                      "professional_type": "Creator",
+                      "rest_id": "1509062572376526852"
+                    },
+                    "profile_image_shape": "Circle",
+                    "rest_id": "457580444",
+                    "super_follow_eligible": false,
+                    "super_followed_by": false,
+                    "super_following": false
+                  }
+                }
+              }
+            },
+            "allow_download_status": {
+              "allow_download": true
+            },
+            "display_url": "pic.x.com/hlwdo6pKNE",
+            "expanded_url": "https://x.com/Forca_Fcb/status/2052796087845474653/video/1",
+            "ext_media_availability": {
+              "status": "Available"
+            },
+            "id_str": "2052796026302455815",
+            "indices": [
+              42,
+              65
+            ],
+            "media_key": "13_2052796026302455815",
+            "media_results": {
+              "result": {
+                "media_key": "13_2052796026302455815"
+              }
+            },
+            "media_url_https": "https://pbs.twimg.com/amplify_video_thumb/2052796026302455815/img/JW6REtfLpDovIRaq.jpg",
+            "original_info": {
+              "focus_rects": [],
+              "height": 1280,
+              "width": 720
+            },
+            "sizes": {
+              "large": {
+                "h": 1280,
+                "resize": "fit",
+                "w": 720
+              },
+              "medium": {
+                "h": 1200,
+                "resize": "fit",
+                "w": 675
+              },
+              "small": {
+                "h": 680,
+                "resize": "fit",
+                "w": 383
+              },
+              "thumb": {
+                "h": 150,
+                "resize": "crop",
+                "w": 150
+              }
+            },
+            "source_status_id_str": "2052796087845474653",
+            "source_user_id_str": "457580444",
+            "type": "video",
+            "url": "https://t.co/hlwdo6pKNE",
+            "video_info": {
+              "aspect_ratio": [
+                9,
+                16
+              ],
+              "duration_millis": 12666,
+              "variants": [
+                {
+                  "content_type": "application/x-mpegURL",
+                  "url": "https://video.twimg.com/amplify_video/2052796026302455815/pl/yloIs4H1CrmcjsCi.m3u8?tag=27&v=8ec"
+                },
+                {
+                  "bitrate": 632000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2052796026302455815/vid/avc1/320x568/UZA3VSSa9h-q6qyo.mp4?tag=27"
+                },
+                {
+                  "bitrate": 950000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2052796026302455815/vid/avc1/480x852/HmMpDy3Ax6gXGRgV.mp4?tag=27"
+                },
+                {
+                  "bitrate": 2176000,
+                  "content_type": "video/mp4",
+                  "url": "https://video.twimg.com/amplify_video/2052796026302455815/vid/avc1/720x1280/6fR1LxiO2X7XynCC.mp4?tag=27"
+                }
+              ]
+            }
+          }
+        ],
+        "symbols": [],
+        "urls": [],
+        "user_mentions": [
+          {
+            "id_str": "1775766536621375488",
+            "indices": [
+              3,
+              14
+            ],
+            "name": "Lamine Xtra",
+            "screen_name": "Yamal_Xtra"
+          }
+        ]
+      },
+      "username": "barcauniversal"
+    }
+  ],
+  "lastUpdate": "2026-05-08T20:41:59.904Z"
 }
