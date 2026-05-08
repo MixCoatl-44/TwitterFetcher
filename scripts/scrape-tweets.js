@@ -23,7 +23,7 @@ const CONFIG = {
   TWEETS_PER_ACCOUNT: 5,
   
   // How many replies to fetch per tweet (set to 0 to disable)
-  REPLIES_PER_TWEET: 5,
+  REPLIES_PER_TWEET: 0,
   
   // Delay between requests (milliseconds)
   REQUEST_DELAY: 2000,
