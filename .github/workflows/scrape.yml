@@ -2,7 +2,7 @@ name: Scrape Tweets and Replies
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Every 30 minutes
+    - cron: '*/30 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -30,15 +28,24 @@ jobs:
 
       - name: Deploy to GitHub Pages
         run: |
+          # Configure git
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          git fetch origin gh-pages 2>/dev/null || git checkout --orphan gh-pages
+          # Checkout gh-pages or create it
           git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
           
+          # Remove old files
           git rm -rf . 2>/dev/null || true
-          git checkout main -- index.html manifest.json sw.js 2>/dev/null || true
           
+          # Copy generated files
+          cp ../index.html . 2>/dev/null || git checkout main -- index.html
+          cp ../manifest.json . 2>/dev/null || git checkout main -- manifest.json  
+          cp ../sw.js . 2>/dev/null || git checkout main -- sw.js
+          
+          # Add and commit
           git add index.html manifest.json sw.js
           git commit -m "Update: $(date -u +%Y-%m-%d\ %H:%M\ UTC)" || echo "No changes"
-          git push -f origin gh-pages
+          
+          # Push
+          git push origin gh-pages --force
