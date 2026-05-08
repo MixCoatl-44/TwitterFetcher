@@ -1,4 +1,4 @@
-name: Scrape Tweets and Replies
+name: Scrape Tweets
 
 on:
   schedule:
@@ -7,12 +7,14 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
@@ -20,32 +22,16 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Scrape tweets and replies
+      - name: Scrape tweets
         env:
           TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
           TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
         run: node scripts/scrape-tweets.js
 
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
       - name: Deploy to GitHub Pages
-        run: |
-          # Configure git
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Checkout gh-pages or create it
-          git checkout gh-pages 2>/dev/null || git checkout --orphan gh-pages
-          
-          # Remove old files
-          git rm -rf . 2>/dev/null || true
-          
-          # Copy generated files
-          cp ../index.html . 2>/dev/null || git checkout main -- index.html
-          cp ../manifest.json . 2>/dev/null || git checkout main -- manifest.json  
-          cp ../sw.js . 2>/dev/null || git checkout main -- sw.js
-          
-          # Add and commit
-          git add index.html manifest.json sw.js
-          git commit -m "Update: $(date -u +%Y-%m-%d\ %H:%M\ UTC)" || echo "No changes"
-          
-          # Push
-          git push origin gh-pages --force
+        uses: actions/deploy-pages@v4
