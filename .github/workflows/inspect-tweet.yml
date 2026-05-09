@@ -1,0 +1,39 @@
+name: Inspect Tweet HTML
+
+on:
+  workflow_dispatch:
+    inputs:
+      tweet_url:
+        description: 'Full tweet URL (e.g., https://x.com/username/status/123)'
+        required: true
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Run tweet inspector
+        env:
+          TWEET_URL: ${{ github.event.inputs.tweet_url }}
+          TWITTER_CT0: ${{ secrets.TWITTER_CT0 }}
+          TWITTER_AUTH_TOKEN: ${{ secrets.TWITTER_AUTH_TOKEN }}
+        run: python inspect_tweet.py
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: tweet-inspection
+          path: |
+            tweet.html
+            links.txt
