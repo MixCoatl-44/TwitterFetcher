@@ -13,7 +13,6 @@ const path = require('path');
 
 const CONFIG = {
   ACCOUNTS: [
-    'TrueCrypto28',
     'IncomeSharks',
     'RafaelH117',
     'barcauniversal',
@@ -312,11 +311,12 @@ async function fetchAllTweets(state) {
       console.log(`  Last seen ID: ${lastSeenId || 'none (first run)'}`);
       
       const tweets = await getUserTweets(userId, lastSeenId);
-      console.log(`  Found ${tweets.length} new tweets`);
+      console.log(`  Found ${tweets.length} new tweet(s)`);
       
       if (tweets.length > 0) {
-        // Update last seen ID to the newest tweet
-        state[username] = tweets[0].id;
+        // ✅ FIX: Save the NEWEST tweet ID (last item in oldest-first sorted array)
+        state[username] = tweets[tweets.length - 1].id;
+        console.log(`  Updated last seen ID to: ${state[username]}`);
         
         for (const tweet of tweets) {
           allNewTweets.push({ ...tweet, username });
@@ -464,8 +464,12 @@ async function main() {
     return;
   }
   
-  // Sort chronologically (oldest first) so they appear in correct order in Telegram
-  newTweets.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+  // ✅ FIX: Sort chronologically using timestamp parsing (oldest first)
+  newTweets.sort((a, b) => {
+    const dateA = Date.parse(a.created_at);
+    const dateB = Date.parse(b.created_at);
+    return dateA - dateB;
+  });
   
   // Send to Telegram
   console.log('\nSending to Telegram...');
