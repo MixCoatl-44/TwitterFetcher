@@ -18,7 +18,7 @@ const CONFIG = {
     'barcauniversal',
   ],
   
-  TWEETS_PER_ACCOUNT: 11,
+  TWEETS_PER_ACCOUNT: 44,
   REQUEST_DELAY: 2000,
   STATE_FILE: path.join(__dirname, '../data/state.json'),
 };
