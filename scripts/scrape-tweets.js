@@ -237,6 +237,7 @@ async function getUserTweets(userId, sinceId = null) {
     variables.since_id = sinceId;
   }
   
+  // ✅ FIX: Added extended tweet features to prevent truncation
   const features = {
     rweb_lists_timeline_redesign_enabled: true,
     responsive_web_graphql_exclude_directive_enabled: true,
@@ -245,7 +246,16 @@ async function getUserTweets(userId, sinceId = null) {
     view_counts_everywhere_api_enabled: true,
     longform_notetweets_consumption_enabled: true,
     tweet_awards_web_tipping_enabled: false,
-    responsive_web_enhance_cards_enabled: false
+    responsive_web_enhance_cards_enabled: false,
+    creator_subscriptions_tweet_preview_api_enabled: true,
+    tweetypie_unmention_optimization_enabled: true,
+    responsive_web_edit_tweet_api_enabled: true,
+    graphql_is_translatable_rweb_tweet_is_translatable_enabled: true,
+    longform_notetweets_rich_text_read_enabled: true,
+    longform_notetweets_inline_media_enabled: true,
+    responsive_web_media_download_video_enabled: false,
+    tweet_with_visibility_results_prefer_gql_limited_actions_policy_enabled: true,
+    vibe_api_enabled: true,
   };
   
   const url = `https://twitter.com/i/api/graphql/${GRAPHQL_IDS.UserTweets}/UserTweets` +
@@ -314,8 +324,9 @@ async function fetchAllTweets(state) {
       console.log(`  Found ${tweets.length} new tweet(s)`);
       
       if (tweets.length > 0) {
-        // ✅ FIX: Save the NEWEST tweet ID (last item in oldest-first sorted array)
-        state[username] = tweets[tweets.length - 1].id;
+        // ✅ CRITICAL FIX: Twitter returns tweets NEWEST FIRST
+        // So tweets[0] is the NEWEST tweet, which is what we want to save
+        state[username] = tweets[0].id;
         console.log(`  Updated last seen ID to: ${state[username]}`);
         
         for (const tweet of tweets) {
@@ -464,7 +475,7 @@ async function main() {
     return;
   }
   
-  // ✅ FIX: Sort chronologically using timestamp parsing (oldest first)
+  // Sort chronologically (oldest first) using timestamp parsing
   newTweets.sort((a, b) => {
     const dateA = Date.parse(a.created_at);
     const dateB = Date.parse(b.created_at);
