@@ -240,7 +240,7 @@ async function getUserId(username) {
   return data.data?.user?.result?.rest_id;
 }
 
-async function getUserTweets(userId, sinceId = null) {
+async function getUserTweets(userId) {
   const variables = {
     userId: userId,
     count: CONFIG.TWEETS_PER_ACCOUNT,
@@ -249,10 +249,6 @@ async function getUserTweets(userId, sinceId = null) {
     withVoice: false,
     withV2Timeline: true,
   };
-  
-  if (sinceId) {
-    variables.since_id = sinceId;
-  }
   
   // Extended tweet features to prevent truncation
   const features = {
@@ -314,7 +310,7 @@ async function getUserTweets(userId, sinceId = null) {
       }
       
       return {
-        // IMPORTANT: use legacy.id_str, not result.rest_id, for reliable ID
+        // Use legacy.id_str for reliable ID
         id: legacy.id_str,
         text: fullText,
         created_at: legacy.created_at,
@@ -343,8 +339,15 @@ async function fetchAllTweets(state) {
       const lastSeenId = state[username];
       console.log(`  Last seen ID: ${lastSeenId || 'none (first run)'}`);
       
-      const tweets = await getUserTweets(userId, lastSeenId);
-      console.log(`  Found ${tweets.length} new tweet(s)`);
+      let tweets = await getUserTweets(userId);
+      console.log(`  Fetched ${tweets.length} recent tweet(s)`);
+      
+      // ---- CLIENT-SIDE DEDUPLICATION ----
+      // The GraphQL API does NOT honor since_id, so we filter here.
+      if (lastSeenId) {
+        tweets = tweets.filter(tweet => tweet.id > lastSeenId);
+        console.log(`  After filtering: ${tweets.length} truly new tweet(s)`);
+      }
       
       if (tweets.length > 0) {
         // Twitter returns tweets NEWEST FIRST → tweets[0] = newest
