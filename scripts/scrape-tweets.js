@@ -15,6 +15,7 @@ const CONFIG = {
   ACCOUNTS: [
     'IncomeSharks',
     'TruthTrumpPosts',
+    'barcauniversal',
     'spectatorindex',
     'RafaelH117',
     'tparsi',
