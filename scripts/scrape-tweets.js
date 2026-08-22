@@ -14,6 +14,7 @@ const path = require('path');
 const CONFIG = {
   ACCOUNTS: [
     'IncomeSharks',
+    'fiaz1899',
     'DominicWaghorn',
     'TruthTrumpPosts',
     'barcauniversal',
@@ -26,7 +27,6 @@ const CONFIG = {
     'netblocks',
     'FabrizioRomano',
     'TrueCrypto',
-    'sdfprop',
     'nebraskangooner',
   ],
   
