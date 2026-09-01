@@ -2,7 +2,7 @@ name: Scrape and Send to Telegram
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Every 30 minutes
+    - cron: '8,23,38,53 * * * *'  # Every ~15 min, offset from busy :00/:15/:30/:45 slots
   workflow_dispatch:
 
 permissions:
