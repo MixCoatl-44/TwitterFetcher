@@ -15,7 +15,6 @@ const CONFIG = {
   ACCOUNTS: [
     'IncomeSharks',
     'fiaz1899',
-    'bentodar',
     'DominicWaghorn',
     'TruthTrumpPosts',
     'barcauniversal',
