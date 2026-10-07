@@ -190,7 +190,15 @@ function expandUrls(text, entities) {
     expanded = expanded.replace(from, to);
   }
   
-  expanded = expanded.replace(/\s+/g, ' ').trim();
+  // FIX: Only collapse spaces/tabs, NOT newlines.
+  // Previously /\s+/g also matched \n, which flattened
+  // multi-line tweets into a single line.
+  expanded = expanded
+    .replace(/[ \t]+/g, ' ')        // collapse runs of spaces/tabs only
+    .replace(/\n{3,}/g, '\n\n')     // cap excessive blank lines (3+ -> 2)
+    .replace(/[ \t]+\n/g, '\n')     // trim trailing spaces before a newline
+    .replace(/\n[ \t]+/g, '\n')     // trim leading spaces after a newline
+    .trim();
   
   return expanded;
 }
